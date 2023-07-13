@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\CommerceController;
 use App\Http\Controllers\WelcomeController;
 use Illuminate\Support\Facades\Route;
 
@@ -19,4 +20,7 @@ use Illuminate\Support\Facades\Route;
 // }); 
 
 Route::get('/', [WelcomeController::class, 'bienvenue'])->name('welcome');
-Route::get('/about', [WelcomeController::class, 'apropos'])->name('about');
+Route::get('/about', [WelcomeController::class, 'apropos'])->name('about');   
+
+
+Route::get('/marche', [CommerceController::class, 'shop'])->name('marche');

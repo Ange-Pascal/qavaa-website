@@ -1049,30 +1049,32 @@
     </section><!-- End Contact Section --> --}}
 
 
-    <section class="newsletter">
-      <div class="container">
-        <div class="row justify-content-center" data-aos="zoom-in" data-aos-delay="100">
-            <div class="col-xl-10">
-                <div class="text-center">
-                    <div class="container section-title" data-aos="fade-up">
-                        <h2>Newsletter</h2>
-                        <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
-                    </div><!-- End Section Title -->
-                        <div class="row">
-                          <div class="col-lg-3"></div>
-
-                          <div class="col-lg-6 ">
-                            <form action="#" class="sign-up-form  d-flex" data-aos="fade-up" data-aos-delay="300">
-                                <input type="text" class="form-control" placeholder="Enter email address">
-                                <input type="submit" class="btn btn-primary" value="Sign up">
-                            </form>
-                        </div> 
-                        <div class="col-lg-3"></div>
-                      </div>
-                </div>
-            </div>
+    <!-- Newsletters -->  
+    <section class="subscribe-area pb-50 pt-70">
+        <div class="container">
+            <div class="row">
+        
+                            <div class="col-md-4">
+                                <div class="subscribe-text mb-15">
+                                    <h4 style="font-weight: bold; color: #e84545">JOIN OUR NEWSLETTER</h4>
+                                    <h2 style="font-weight: bold; color: #000">subscribe newsletter</h2>
+                                </div>
+                            </div>
+                            <div class="col-md-8">
+                                <div class="subscribe-wrapper subscribe2-wrapper mb-15">
+                                    <div class="subscribe-form">
+                                        <form action="#">
+                                            <input placeholder="enter your email address" type="email">
+                                            <button>subscribe <i class="fas fa-long-arrow-alt-right"></i></button>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+        
         </div>
-    </div>
+        </section>
+    <!-- end newsletters --> 
 
 
     </section>

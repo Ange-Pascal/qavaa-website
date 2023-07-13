@@ -25,7 +25,7 @@
 
                 <ul class="timeline">
                     <li>
-                        <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/about/value1.jpg"
+                        <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/about/value1.jpg" 
                                 alt="..." /></div>
                         <div class="timeline-panel">
                             <div class="timeline-heading">
@@ -40,7 +40,7 @@
                         </div>
                     </li>
                     <li class="timeline-inverted">
-                        <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/about/value1.jpg"
+                        <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/about/mission.jpg"
                                 alt="..." /></div>
                         <div class="timeline-panel">
                             <div class="timeline-heading">
@@ -56,7 +56,7 @@
                         </div>
                     </li>
                     <li>
-                        <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/about/value1.jpg"
+                        <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/about/vision.jpg"
                                 alt="..." /></div>
                         <div class="timeline-panel">
                             <div class="timeline-heading">
@@ -71,11 +71,11 @@
                         </div>
                     </li>
                     <li class="timeline-inverted">
-                        <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/about/value1.jpg"
+                        <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/about/business.jpg"
                                 alt="..." /></div>
                         <div class="timeline-panel">
                             <div class="timeline-heading">
-                                <h4 class="priority" style="color: grey">Lorem ipsum</h4>
+                                <h4 class="priority" style="color: grey">consulting</h4>
                                 <h4 class="subheading" style="font-weight: bold">Lorem ipsum dolor</h4>
                             </div>
                             <div class="timeline-body">
@@ -185,6 +185,33 @@
 
         </div>
 
-    </section><!-- End Faq Section -->
+    </section><!-- End Faq Section -->   
+
+    <!-- Newsletters -->  
+    <section class="subscribe-area pb-50 pt-70">
+        <div class="container">
+            <div class="row">
+        
+                            <div class="col-md-4">
+                                <div class="subscribe-text mb-15">
+                                    <h4 style="font-weight: bold; color: #e84545">JOIN OUR NEWSLETTER</h4>
+                                    <h2 style="font-weight: bold; color: #000">subscribe newsletter</h2>
+                                </div>
+                            </div>
+                            <div class="col-md-8">
+                                <div class="subscribe-wrapper subscribe2-wrapper mb-15">
+                                    <div class="subscribe-form">
+                                        <form action="#">
+                                            <input placeholder="enter your email address" type="email">
+                                            <button>subscribe <i class="fas fa-long-arrow-alt-right"></i></button>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+        
+        </div>
+        </section>
+    <!-- end newsletters --> 
     </div>
 @endsection

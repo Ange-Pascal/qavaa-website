@@ -38,7 +38,7 @@
     <header id="header" class="header position-relative d-flex align-items-center scroll-up-sticky">
         <div class="container-fluid d-flex align-items-center justify-content-between">
 
-            <a href="index.html" class="logo d-flex align-items-center me-auto me-xl-0">
+            <a href={{ route('welcome') }} class="logo d-flex align-items-center me-auto me-xl-0">
 
                 <h1>Qavaa Group</h1>
                 <span>.</span>
@@ -49,7 +49,7 @@
                 <ul>
                     <li><a href={{ route('welcome') }} class="active">Accueil</a></li>
                     <li><a href={{ route('about') }}>About Us</a></li>
-                    <li class="dropdown has-dropdown"><a href="#"><span>E-commerce</span> <i
+                    <li class="dropdown has-dropdown"><a href={{ route('marche') }}><span>E-commerce</span> <i
                                 class="bi bi-chevron-down"></i></a>
                         <ul class="dd-box-shadow">
                             <li><a href="#">Membership</a></li>
@@ -84,7 +84,7 @@
         <div class="container footer-top">
             <div class="row gy-4">
                 <div class="col-lg-5 col-md-12 footer-about">
-                    <a href="index.html" class="logo d-flex align-items-center">
+                    <a href={{ route('welcome') }} class="logo d-flex align-items-center">
                         <span>Qavaa Group</span>
                     </a>
                     <p>Cras fermentum odio eu feugiat lide par naso tierra. Justo eget nada terra videa magna derita
