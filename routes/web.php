@@ -23,4 +23,4 @@ Route::get('/', [WelcomeController::class, 'bienvenue'])->name('welcome');
 Route::get('/about', [WelcomeController::class, 'apropos'])->name('about');   
 
 
-Route::get('/marche', [CommerceController::class, 'shop'])->name('marche');
+Route::get('/markeplace/marketplace', [CommerceController::class, 'shop'])->name('marketplace');

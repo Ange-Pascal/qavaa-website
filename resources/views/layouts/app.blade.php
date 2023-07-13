@@ -49,7 +49,7 @@
                 <ul>
                     <li><a href={{ route('welcome') }} class="active">Accueil</a></li>
                     <li><a href={{ route('about') }}>About Us</a></li>
-                    <li class="dropdown has-dropdown"><a href={{ route('marche') }}><span>E-commerce</span> <i
+                    <li class="dropdown has-dropdown"><a href={{ route('marketplace') }}><span>E-commerce</span> <i
                                 class="bi bi-chevron-down"></i></a>
                         <ul class="dd-box-shadow">
                             <li><a href="#">Membership</a></li>
