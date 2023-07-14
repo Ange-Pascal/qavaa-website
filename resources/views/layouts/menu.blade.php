@@ -44,7 +44,7 @@
     <header id="header" class="header position-relative d-flex align-items-center scroll-up-sticky">
         <div class="container-fluid d-flex align-items-center justify-content-between">
 
-            <a href="index.html" class="logo d-flex align-items-center me-auto me-xl-0">
+            <a href={{ route('welcome') }} class="logo d-flex align-items-center me-auto me-xl-0">
 
                 <h1>Qavaa Group</h1>
                 <span>.</span>
@@ -55,7 +55,7 @@
                 <ul>
                     <li><a href={{ route('welcome') }}>Home</a></li>
                     <li><a href={{ route('about') }} class="active">About</a></li>
-                    <li class="dropdown has-dropdown"><a href="#"><span>E-commerce</span> <i
+                    <li class="dropdown has-dropdown"><a href={{ route('marketplace') }}><span>E-commerce</span> <i
                                 class="bi bi-chevron-down"></i></a>
                         <ul class="dd-box-shadow">
                             <li><a href="#">Membership</a></li>
