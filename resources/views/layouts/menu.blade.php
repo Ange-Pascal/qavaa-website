@@ -149,7 +149,7 @@
                 <!-- You can delete the links only if you've purchased the pro version. -->
                 <!-- Licensing information: https://bootstrapmade.com/license/ -->
                 <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/append-bootstrap-website-template/ -->
-                Designed by <a href="https://qavaainnovate.com">Qavaa Group</a>
+                Designed by <a href={{ route('welcome') }}>Qavaa Group</a>
             </div>
         </div>
 

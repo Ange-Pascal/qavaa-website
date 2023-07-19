@@ -3276,7 +3276,97 @@ section {
     margin-bottom: 20px; 
     color: var(--color-nav-hover); 
     text-transform: uppercase;
-   }
+   } 
+
+
+   /* membership section */
+
+   .about-section {
+    background-image: url('../images/edward-unsplash-blur.jpg');
+    background-color: var(--color-secondary);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  } 
+
+
+  
+.about-image {
+  border-radius: 30px;
+  display: block;
+}
+
+.about-text-wrap {
+  position: relative;
+} 
+
+.about-text-icon {
+  background: var(--primary-color);
+  border-radius: 100%;
+  font-size: 15px;
+  width: 70px;
+  height: 70px;
+  line-height: 70px;
+  text-align: center;
+}
+
+.about-text-info {
+  backdrop-filter: blur(5px) saturate(180%);
+  -webkit-backdrop-filter: blur(5px) saturate(180%);
+  background-color: rgba(255, 255, 255, 0.75);
+  border-radius: 30px;
+  border: 1px solid rgba(209, 213, 219, 0.3);
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  margin: 20px;
+  padding: 35px;
+}
+
+
+
+.about-text-icon {
+  background: var(--color-primary);
+  border-radius: 100%;
+  font-size: 15px;
+  width: 70px;
+  height: 70px;
+  line-height: 70px;
+  text-align: center;
+}
+
+.about-text-info {
+  backdrop-filter: blur(5px) saturate(180%);
+  -webkit-backdrop-filter: blur(5px) saturate(180%);
+  background-color: rgba(255, 255, 255, 0.75);
+  border-radius: #ddd;
+  border: 1px solid rgba(209, 213, 219, 0.3);
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  margin: 20px;
+  padding: 35px;
+} 
+
+.custom-btn {
+  background: var(--color-primary);
+  border: 2px solid transparent;
+  border-radius: 50px;
+  color: #fff;
+  font-size: 15px;
+  font-weight: bold;
+  line-height: normal;
+  transition: all 0.3s;
+  padding: 10px 20px;
+}
+
+.custom-btn:hover {
+  background: #ddd;
+  color: var(--color-nav-hover);
+}
+
 
 
 

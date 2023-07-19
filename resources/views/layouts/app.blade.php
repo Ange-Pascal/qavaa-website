@@ -52,7 +52,7 @@
                     <li class="dropdown has-dropdown"><a href={{ route('marketplace') }}><span>E-commerce</span> <i
                                 class="bi bi-chevron-down"></i></a>
                         <ul class="dd-box-shadow">
-                            <li><a href="#">Membership</a></li>
+                            <li><a href="/ecommerce#membership">Membership</a></li>
                             <li><a href="#">Digital Marketing</a></li>
                         </ul>
                     </li>
@@ -139,7 +139,7 @@
                 <!-- You can delete the links only if you've purchased the pro version. -->
                 <!-- Licensing information: https://bootstrapmade.com/license/ -->
                 <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/append-bootstrap-website-template/ -->
-                Designed by <a href="https://bootstrapmade.com/">Qavaa Consulting</a>
+                Designed by <a href={{ route('welcome') }}>Qavaa Consulting</a>
             </div>
         </div>
 
