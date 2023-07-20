@@ -54,7 +54,7 @@
             <nav id="navmenu" class="navmenu">
                 <ul>
                     <li><a href={{ route('welcome') }}>Home</a></li>
-                    <li><a href={{ route('about') }} class="active">About</a></li>
+                    <li><a href={{ route('about') }} class="active">About Us</a></li>
                     <li class="dropdown has-dropdown"><a href={{ route('marketplace') }}><span>E-commerce</span> <i
                                 class="bi bi-chevron-down"></i></a>
                         <ul class="dd-box-shadow">
@@ -70,8 +70,7 @@
                             <li><a href="#">Maintenance</a></li>
                         </ul>
                     </li>
-                    <li><a href="blog.html">Blog</a></li>
-                    <li><a href="index.html#contact">Contact</a></li>
+                    <li><a href={{ route('contacts') }}>Contact</a></li>
                 </ul>
 
                 <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
@@ -110,8 +109,8 @@
                 <div class="col-lg-2 col-6 footer-links">
                     <h4>Useful Links</h4>
                     <ul>
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">About us</a></li>
+                        <li><a href={{ route('welcome') }}>Home</a></li>
+                        <li><a href={{ route('about') }}>About us</a></li>
                         <li><a href="#">Services</a></li>
                         <li><a href="#">Terms of service</a></li>
                         <li><a href="#">Privacy policy</a></li>
@@ -131,11 +130,12 @@
 
                 <div class="col-lg-3 col-md-12 footer-contact text-center text-md-start">
                     <h4>Contact Us</h4>
-                    <p>A108 Adam Street</p>
-                    <p>New York, NY 535022</p>
                     <p>United States</p>
-                    <p class="mt-4"><strong>Phone:</strong> <span>+1 5589 55488 55</span></p>
-                    <p><strong>Email:</strong> <span>info@example.com</span></p>
+                    <p>Ivory Cost</p>
+                    <p>Nigeria</p>
+                    <p>Togo</p>
+                    <p class="mt-4"><strong>Phone:</strong> <span>+1 410 929 7684</span></p>
+                    <p><strong>Email:</strong> <span>info@qavaa.com</span></p>
                 </div>
 
             </div>

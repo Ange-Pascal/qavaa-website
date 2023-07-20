@@ -3369,7 +3369,22 @@ section {
 
 
 
+/* digital description of marketplace page */ 
 
+
+.features .digital{
+  background: var(--color-nav-dropdown); 
+  border-radius: 20px; 
+  padding: 10px; 
+  color: #fff;
+}  
+
+.features h4{
+  font-weight: bold; 
+  color: var(--color-primary); 
+  text-transform: capitalize; 
+  font-size: 20px;
+}
 
 
   
