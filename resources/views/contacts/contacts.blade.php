@@ -1,4 +1,4 @@
-@extends('./layouts/menu')  
+@extends('./layouts/menu')
 
 
 
@@ -17,10 +17,18 @@
                         message each other. </p>
                 </div>
             </div>
+
+
+           <div class="container">
+                <h2>Contact form</h2>
+               <div>
+
+               </div>
+           </div>
         </div>
     </div>
 </div>
-    
+
 @endsection
 
 

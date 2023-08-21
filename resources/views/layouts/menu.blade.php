@@ -57,21 +57,36 @@
                     <li><a href={{ route('about') }} class="active">About Us</a></li>
                     <li class="dropdown has-dropdown"><a href={{ route('marketplace') }}><span>E-commerce</span> <i
                                 class="bi bi-chevron-down"></i></a>
-                        <div class="mega-box">
+                        <div class="megamenu">
                             <ul class="dd-box-shadow">
-                                <li><a href="#">Membership</a></li>
-                                <li><a href="#">Digital Marketing</a></li>
+                                <li>
+                                    <a href="#">Membership</a> <br/>
+                                        Ipsa sint sit. Quis ducimus tempore dolores impedit et dolor cumque alias maxime.
+                                </li>
+                                <li>
+                                    <a href="#">Digital Marketing</a><br/>
+                                    Ipsa sint sit. Quis ducimus tempore dolores impedit et dolor cumque alias maxime.
+                                </li>
                             </ul>
                         </div>
                     </li>
                     <li class="dropdown has-dropdown"><a href="#"><span>Consulting</span> <i
                                 class="bi bi-chevron-down"></i></a>
                         <div class="megamenu">
-                            <div class="content">
+
                                 <ul class="dd-box-shadow">
-                                    <li><a href={{ route('welcome') }}>Web Design</a></li>
-                                    <li><a href="#">Web & Mobile Apps</a></li>
-                                    <li><a href="#">Maintenance</a></li>
+                                    <li><a href={{ route('welcome') }}>Web Design</a> <br/>
+                                        Ipsa sint sit. Quis ducimus tempore dolores impedit et dolor cumque alias maxime.
+                                    </li>
+                                    <li>
+                                        <a href="#">Web & Mobile Apps</a> <br/>
+                                        Ipsa sint sit. Quis ducimus tempore dolores impedit et dolor cumque alias maxime.
+                                    </li>
+                                    <li>
+                                        <a href="#">Maintenance</a>
+                                        <br/>
+                                        Ipsa sint sit. Quis ducimus tempore dolores impedit et dolor cumque alias maxime.
+                                    </li>
                                 </ul>
                         </div>
                     </li>
