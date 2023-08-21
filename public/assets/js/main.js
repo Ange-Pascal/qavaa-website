@@ -61,7 +61,7 @@ document.addEventListener('DOMContentLoaded', () => {
   window.addEventListener('scroll', function() {
     if (!selectHeader.classList.contains('scroll-up-sticky')) return;
 
-    let scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+    let scrollTop = window.pageYOfbfset || document.documentElement.scrollTop;
 
     if (scrollTop > lastScrollTop && scrollTop > selectHeader.offsetHeight) {
       selectHeader.style.setProperty('position', 'sticky', 'important');

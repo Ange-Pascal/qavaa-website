@@ -51,24 +51,29 @@
             </a>
 
             <!-- Nav Menu -->
-            <nav id="navmenu" class="navmenu">
+            <nav id="navmenu" class="navmenu ">
                 <ul>
                     <li><a href={{ route('welcome') }}>Home</a></li>
                     <li><a href={{ route('about') }} class="active">About Us</a></li>
                     <li class="dropdown has-dropdown"><a href={{ route('marketplace') }}><span>E-commerce</span> <i
                                 class="bi bi-chevron-down"></i></a>
-                        <ul class="dd-box-shadow">
-                            <li><a href="#">Membership</a></li>
-                            <li><a href="#">Digital Marketing</a></li>
-                        </ul>
+                        <div class="mega-box">
+                            <ul class="dd-box-shadow">
+                                <li><a href="#">Membership</a></li>
+                                <li><a href="#">Digital Marketing</a></li>
+                            </ul>
+                        </div>
                     </li>
                     <li class="dropdown has-dropdown"><a href="#"><span>Consulting</span> <i
                                 class="bi bi-chevron-down"></i></a>
-                        <ul class="dd-box-shadow">
-                            <li><a href={{ route('welcome') }}>Web Design</a></li>
-                            <li><a href="#">Web & Mobile Apps</a></li>
-                            <li><a href="#">Maintenance</a></li>
-                        </ul>
+                        <div class="megamenu">
+                            <div class="content">
+                                <ul class="dd-box-shadow">
+                                    <li><a href={{ route('welcome') }}>Web Design</a></li>
+                                    <li><a href="#">Web & Mobile Apps</a></li>
+                                    <li><a href="#">Maintenance</a></li>
+                                </ul>
+                        </div>
                     </li>
                     <li><a href={{ route('contacts') }}>Contact</a></li>
                 </ul>
