@@ -25,6 +25,8 @@
     <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
     <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
     <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
 
     <!-- Template Main CSS File -->
     <link href="assets/css/main.css" rel="stylesheet">
@@ -34,46 +36,66 @@
 
 <body class="index-page">
 
-    <!-- ======= Header ======= -->
-    <header id="header" class="header position-relative d-flex align-items-center scroll-up-sticky">
-        <div class="container-fluid d-flex align-items-center justify-content-between">
+   <!-- ======= Header ======= -->
+   <header id="header" class="header position-relative d-flex align-items-center scroll-up-sticky">
+    <div class="container-fluid d-flex align-items-center justify-content-between">
 
-            <a href={{ route('welcome') }} class="logo d-flex align-items-center me-auto me-xl-0">
+        <a href={{ route('welcome') }} class="logo d-flex align-items-center me-auto me-xl-0">
 
-                <h1>Qavaa Group</h1>
-                <span>.</span>
-            </a>
+            <h1>Qavaa Group</h1>
+            <span>.</span>
+        </a>
 
-            <!-- Nav Menu -->
-            <nav id="navmenu" class="navmenu">
-                <ul>
-                    <li><a href={{ route('welcome') }} class="active">Home</a></li>
-                    <li><a href={{ route('about') }}>About Us</a></li>
-                    <li class="dropdown has-dropdown"><a href={{ route('marketplace') }}><span>E-commerce</span> <i
-                                class="bi bi-chevron-down"></i></a>
+        <!-- Nav Menu -->
+        <nav id="navmenu" class="navmenu ">
+            <ul>
+                <li><a href={{ route('welcome') }}>Home</a></li>
+                <li><a href={{ route('about') }} class="active">About Us</a></li>
+                <li class="dropdown has-dropdown"><a href={{ route('marketplace') }}><span>E-commerce</span> <i
+                            class="bi bi-chevron-down"></i></a>
+                    <div class="megamenu">
                         <ul class="dd-box-shadow">
-                            <li><a href="/ecommerce#membership">Membership</a></li>
-                            <li><a href="#">Digital Marketing</a></li>
+                            <li>
+                                <a href="#">Membership</a> <br/>
+                                    Ipsa sint sit. Quis ducimus tempore dolores impedit et dolor cumque alias maxime.
+                            </li>
+                            <li>
+                                <a href="#">Digital Marketing</a><br/>
+                                Ipsa sint sit. Quis ducimus tempore dolores impedit et dolor cumque alias maxime.
+                            </li>
                         </ul>
-                    </li>
-                    <li class="dropdown has-dropdown"><a href="#"><span>Consulting</span> <i
-                                class="bi bi-chevron-down"></i></a>
-                        <ul class="dd-box-shadow">
-                            <li><a href={{ route('welcome') }}>Web Design</a></li>
-                            <li><a href="#">Web & Mobile Apps</a></li>
-                            <li><a href="#">Maintenance</a></li>
-                        </ul>
-                    </li>
-                    <li><a href={{ route('contacts') }}>Contact</a></li>
-                </ul>
+                    </div>
+                </li>
+                <li class="dropdown has-dropdown"><a href="#"><span>Consulting</span> <i
+                            class="bi bi-chevron-down"></i></a>
+                    <div class="megamenu">
 
-                <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
-            </nav><!-- End Nav Menu -->
+                            <ul class="dd-box-shadow">
+                                <li><a href={{ route('welcome') }}>Web Design</a> <br/>
+                                    Ipsa sint sit. Quis ducimus tempore dolores impedit et dolor cumque alias maxime.
+                                </li>
+                                <li>
+                                    <a href="#">Web & Mobile Apps</a> <br/>
+                                    Ipsa sint sit. Quis ducimus tempore dolores impedit et dolor cumque alias maxime.
+                                </li>
+                                <li>
+                                    <a href="#">Maintenance</a>
+                                    <br/>
+                                    Ipsa sint sit. Quis ducimus tempore dolores impedit et dolor cumque alias maxime.
+                                </li>
+                            </ul>
+                    </div>
+                </li>
+                <li><a href={{ route('contacts') }}>Contact</a></li>
+            </ul>
 
-            <a class="btn-getstarted" href="index.html#about">Get Started</a>
+            <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+        </nav><!-- End Nav Menu -->
 
-        </div>
-    </header><!-- End Header -->
+        <a class="btn-getstarted" href="index.html#about">Get Started</a>
+
+    </div>
+</header><!-- End Header -->
 
     @yield('page-content')
 
@@ -166,7 +188,7 @@
     <script src="assets/vendor/php-email-form/validate.js"></script>
     <script src="assets/vendor/aos/aos.js"></script>
 
-    <!-- Template Main JS File --> 
+    <!-- Template Main JS File -->
     <script src="assets/js/main.js"></script>
 
 </body>

@@ -1,5 +1,5 @@
 @extends('./layouts/menu')
-
+ 
 
 
 @section('menu-content')
@@ -18,13 +18,62 @@
                 </div>
             </div>
 
+            <div class="container" id="contact-form">
+                <div class="item">
+                    <div class="contact">
+                        <div class="first-text"> let's go in touch </div>
+                        <img src="" alt="" class="img">
+                        <div class="social-link">
+                           <span class="second-text "> Conact with us :</span>
+                           <ul class="social-media">
+                                <li> <a href="#"><i class='bx bxl-facebook'></i></a> </li>
+                                <li> <a href="#"><i class='bx bxl-youtube'></i></a> </li>
+                                <li> <a href="#"><i class='bx bxl-twitter'></i></a> </li>
+                           </ul>
+                        </div>
 
-           <div class="container">
-                <h2>Contact form</h2>
-               <div>
+                        
+                    </div>
+                    <div class="submit-form">
+                        <h4 class="third-text">Contact us</h4>
+                        <form action="">
+                            <div class="input-box">
+                                <input type="text" name="fullname" id="" required>
+                                <label for="">Full name</label>
+                            </div>
+                            <div class="input-box">
+                                <input type="email" name="email" id="" required>
+                                <label for="">Email</label>
 
-               </div>
-           </div>
+                            </div>
+                            <div class="input-box">
+                                <input type="url" name="website" id="" required>
+                                <label for="">Website</label>
+
+                            </div>
+
+                            <div class="input-box">
+                                <select name="" id="" class="input">
+                                    <option value="">E-commerce</option>
+                                    <option value="">Digital Marketing</option>
+                                    <option value="">Web Design</option>
+                                    <option value="">Web & Mobil Development</option>
+                                    <option value="">Maintenance</option>
+                                    <option value="">Assistance</option>
+                                </select>
+                                <label for="">Service</label>
+
+                            </div>
+                            <div class="input-box">
+                                <textarea name="message" id="" ></textarea>
+                                <label for="">Message</label>
+
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+
         </div>
     </div>
 </div>
