@@ -55,39 +55,50 @@
                 <ul>
                     <li><a href={{ route('welcome') }}>Home</a></li>
                     <li><a href={{ route('about') }} class="active">About Us</a></li>
-                    <li class="dropdown has-dropdown"><a href={{ route('marketplace') }}><span>E-commerce</span> <i
-                                class="bi bi-chevron-down"></i></a>
-                        <div class="megamenu">
-                            <ul class="dd-box-shadow">
-                                <li>
-                                    <a href="#">Membership</a> <br/>
-                                        Ipsa sint sit. Quis ducimus tempore dolores impedit et dolor cumque alias maxime.
-                                </li>
-                                <li>
-                                    <a href="#">Digital Marketing</a><br/>
-                                    Ipsa sint sit. Quis ducimus tempore dolores impedit et dolor cumque alias maxime.
-                                </li>
-                            </ul>
-                        </div>
-                    </li>
-                    <li class="dropdown has-dropdown"><a href="#"><span>Consulting</span> <i
-                                class="bi bi-chevron-down"></i></a>
-                        <div class="megamenu">
+                    <li class="dropdown has-dropdown"><a href={{ route('marketplace') }}><span>E-commerce</span> <i class="bi bi-chevron-down"></i></a>
 
-                                <ul class="dd-box-shadow">
-                                    <li><a href={{ route('welcome') }}>Web Design</a> <br/>
-                                        Ipsa sint sit. Quis ducimus tempore dolores impedit et dolor cumque alias maxime.
-                                    </li>
-                                    <li>
-                                        <a href="#">Web & Mobile Apps</a> <br/>
-                                        Ipsa sint sit. Quis ducimus tempore dolores impedit et dolor cumque alias maxime.
-                                    </li>
-                                    <li>
-                                        <a href="#">Maintenance</a>
-                                        <br/>
-                                        Ipsa sint sit. Quis ducimus tempore dolores impedit et dolor cumque alias maxime.
-                                    </li>
-                                </ul>
+                    </li>
+                    <li class=""><a href="#"><span>Consulting</span> <i
+                                class="bi bi-chevron-down"></i></a>
+                        <div class="mega-box">
+                            <div class="content">
+                                <div class="row">
+                                    <header>Deasign service</header>
+                                    <ul class="mega-link">
+                                        <li> <a href=""> Lorem, ipsum dolor. </a></li>
+                                        <li><a href="">Lorem, ipsum.</a></li>
+                                        <li><a href="">lorem Lorem ipsum</a></li>
+                                        <li><a href="">Lorem ipsum dolor sit.</a></li>
+                                    </ul>
+                                </div>
+                                <div class="row">
+                                    <header>Deasign service</header>
+                                    <ul class="mega-link ml">
+                                        <li> <a href=""> Lorem, ipsum dolor. </a></li>
+                                        <li><a href="">Lorem, ipsum.</a></li>
+                                        <li><a href="">lorem Lorem ipsum</a></li>
+                                        <li><a href="">Lorem ipsum dolor sit.</a></li>
+                                    </ul>
+                                </div>
+                                <div class="row">
+                                    <header>Deasign service</header>
+                                    <ul class="mega-link ml">
+                                        <li> <a href=""> Lorem, ipsum dolor. </a></li>
+                                        <li><a href="">Lorem, ipsum.</a></li>
+                                        <li><a href="">lorem Lorem ipsum</a></li>
+                                        <li><a href="">Lorem ipsum dolor sit.</a></li>
+                                    </ul>
+                                </div>
+                                <div class="row">
+                                    <header>Deasign service</header>
+                                    <ul class="mega-link ml">
+                                        <li> <a href=""> Lorem, ipsum dolor. </a></li>
+                                        <li><a href="">Lorem, ipsum.</a></li>
+                                        <li><a href="">lorem Lorem ipsum</a></li>
+                                        <li><a href="">Lorem ipsum dolor sit.</a></li>
+                                    </ul>
+                                </div>
+                            </div>
                         </div>
                     </li>
                     <li><a href={{ route('contacts') }}>Contact</a></li>
