@@ -1,5 +1,5 @@
 @extends('./layouts/menu')
- 
+
 
 
 @section('menu-content')
@@ -19,12 +19,37 @@
             </div>
 
             <div class="container" id="contact-form">
-                <div class="item">
-                    <div class="contact">
+                <div class="item row">
+                    <div class="contact col-1-7">
                         <div class="first-text"> let's go in touch </div>
-                        <img src="" alt="" class="img">
+
+                        <div class="slider-container">
+                            <div class="slides">
+                                <img src="assets/img/contact/33-337107_e-commerce-vector-png-transparent-png.png" alt="" class="img active">
+                                <img src="assets/img/contact/pngtree-work-marketing-office-team-vector-png-image_5776457.jpg" alt="" class="img">
+                                <img src="assets/img/contact/téléchargement (2).jpeg" alt="" class="img">
+                                <img src="assets/img/contact/pngtree-work-marketing-office-team-vector-png-image_5776457.jpg" alt="" class="img">
+                                <img src="assets/img/contact/" alt="" class="img">
+                                <img src="assets/img/contact/" alt="" class="img">
+                            </div>
+
+                            <div class="butons">
+                                <span class="next">&#10095;</span>
+                                <span class="prev">&#10094;</span>
+                            </div>
+
+                            <div class="dotsContainer">
+                                <div class="dot active" attr="0"></div>
+                                <div class="dot" attr="1"></div>
+                                <div class="dot" attr="2"></div>
+                                <div class="dot" attr="3"></div>
+                                <div class="dot" attr="4"></div>
+                                <div class="dot" attr="5"></div>
+                            </div>
+
+                        </div>
                         <div class="social-link">
-                           <span class="second-text "> Conact with us :</span>
+
                            <ul class="social-media">
                                 <li> <a href="#"><i class='bx bxl-facebook'></i></a> </li>
                                 <li> <a href="#"><i class='bx bxl-youtube'></i></a> </li>
@@ -32,13 +57,13 @@
                            </ul>
                         </div>
 
-                        
+
                     </div>
-                    <div class="submit-form">
+                    <div class="submit-form col-1-5">
                         <h4 class="third-text">Contact us</h4>
                         <form action="">
                             <div class="input-box">
-                                <input type="text" name="fullname" id="" required>
+                                <input type="text" class="" name="fullname" id="" required>
                                 <label for="">Full name</label>
                             </div>
                             <div class="input-box">
@@ -64,10 +89,13 @@
                                 <label for="">Service</label>
 
                             </div>
-                            <div class="input-box">
-                                <textarea name="message" id="" ></textarea>
+                            <div class=" input-box-message">
+                                <textarea name="message" id="" class=" message" placeholder="Entrez votre message "></textarea>
                                 <label for="">Message</label>
 
+                            </div>
+                            <div class="input-box">
+                                <input type="submit" value="Valider" class="btn">
                             </div>
                         </form>
                     </div>

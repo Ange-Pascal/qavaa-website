@@ -234,3 +234,67 @@ document.addEventListener('DOMContentLoaded', () => {
   window.addEventListener('load', aosInit);
 
 });
+
+
+// *** <contact page ~ slider image
+let slideImage = document.querySelectorAll('img');
+
+let next = document.querySelector('.next');
+let prev = document.querySelector('.prev');
+
+let dots = document.querySelectorAll('.dot');
+
+
+var counter= 0;
+
+next.addEventListener('click', slideNext);
+function slideNext(){
+    slideImage[counter].style.animation  = 'next1 0.5s ease-in forwards';
+    if(counter >= slideImage.length - 1){
+        counter = 0;
+    }
+    else{
+        counter++;
+    }
+    slideImage[counter].style.animation = 'next2 0.5s ease-in forwards';
+    indicator();
+}
+
+
+prev.addEventListener('click', slidePrev);
+function slidePrev(){
+    slideImage[counter].style.animation  = 'prev1 0.5s ease-in forwards';
+    if(counter == 0){
+        counter = slideImage.length-1;
+    }
+    else{
+        counter--;
+    }
+    slideImage[counter].style.animation = 'prev2 0.5s ease-in forwards';
+    indicator();
+}
+
+function autoSliding(){
+    deletInterval = setInterval(timer, 1000);
+    function timer(){
+        slideNext();
+        indicator();
+    }
+}
+autoSliding();
+
+const container = document.querySelector('.slider-container');
+container.addEventListener('mouseover', function(){
+    clearInterval(deletInterval);
+});
+
+container.addEventListener('mouseout', autoSliding);
+
+function indicator(){
+    for( i =0; i < dots.length; i++){
+        dots[i].className = dots[i].className.replace(' active', '');
+    }
+    dots[counter].className += ' active';
+}
+
+

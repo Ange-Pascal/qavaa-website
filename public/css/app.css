@@ -166,7 +166,20 @@
     }
   }
 
+  /* Contact page */
 
-/* mega menu */
+  #contact-form{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: #8f50ec;
+  } 
 
+  #contact-form .item{
+    width: 100%;
+    height: 550px;
+    max-width: 820px;
+    background: #fff;
+    border-radius: 20px;
+  }
 
